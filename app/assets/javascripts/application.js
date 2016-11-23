@@ -16,8 +16,7 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function(){
 
-$("video").prop('muted', true); //mute
+var video = document.getElementById("exesVideo");
+video.muted= true;
 
-})
