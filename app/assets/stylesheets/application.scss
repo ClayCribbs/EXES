@@ -58,5 +58,7 @@
 
 .col-xs-4 {
   white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
 }
 
