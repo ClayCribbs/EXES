@@ -18,6 +18,6 @@
 
 $(document).ready(function(){
 
-$("exesVideo").prop('muted', true); //mute
+$("video").prop('muted', true); //mute
 
 })
