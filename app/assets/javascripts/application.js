@@ -18,7 +18,6 @@
 
 $(document).ready(function(){
 
-document.getElementById("exesVideo").volume = 0.0;
-
+$("exesVideo").prop('muted', true); //mute
 
 })
