@@ -16,9 +16,19 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function(){
+$(document).ready(function() {
 
-$("exesVideo").prop('muted', true); //mute
+var quotes = $(".quotes");
+var quoteIndex = -1;
 
-})
-$("exesVideo").prop('muted', true); //mute
+function showNextQuote() {
+    ++quoteIndex;
+    quotes.eq(quoteIndex % quotes.length)
+        .fadeIn(2000)
+        .delay(2000)
+        .fadeOut(2000, showNextQuote);
+}
+
+showNextQuote();
+
+});
