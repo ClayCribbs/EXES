@@ -18,7 +18,7 @@
 
 $(document).ready(function(){
 
-var video = document.getElementById("exesVideo");
-video.muted= true;
+$("exesVideo").prop('muted', true); //mute
 
-});
+})
+$("exesVideo").prop('muted', true); //mute
