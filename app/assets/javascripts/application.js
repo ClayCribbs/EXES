@@ -15,3 +15,10 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+
+document.getElementById("exesVideo").volume = 0.0;
+
+
+})
