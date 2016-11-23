@@ -63,7 +63,7 @@
 <!-- Container (The Band Section) -->
 <div id="singles" class="container text-center">
 <hr class="intro-divider">
-  <p><h3><em>we write songs about our exes.</em></h3><br</p>
+  <p><h3><em>we write songs about our exes.</em></h3><br></p>
   <div id="slideshow text-right">
    <div id="slide1" class="quotes">
     <em> We are inspired by the people, places, and things of our past.</em>
@@ -139,7 +139,7 @@
 <div id="ep">
 	<div class="row bg-1">
 		<div class="container">
-		  <div class="col-sm-4">
+		  <div class="col-md-4">
 		    <p class="text-center"><strong>The Art of Saying Goodbye</strong></p>
 		    <a href="#demo7" data-toggle="collapse">
 		      <%=  image_tag("https://s3-us-west-2.amazonaws.com/exesbucket/art.jpg", :alt => "The Art of Saying Goodbye", :style => "width:100%;") %>
@@ -155,23 +155,30 @@
 		      </div>
 		    </div>
       </div>
-		  	<div class="col-md-8">
-		  		<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/266762878&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		  	<div class="col-md-8" style="height:325px; padding-top:20px;">
+		  		<iframe width="100%" height="100%" style="padding-left:25px; padding-right:0px;" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/266762878&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 		  	</div>
 		  </div>
 	  </div>
 	</div>
 </div>
-
+</div>
 <!-- Container (TOUR Section) -->
 <div id="tour">
   <div class="container">
-    <p class="text-center"><br>2017 Upcoming Tour</p>
-    <ul class="list-group">
-      <li class="list-group-item">March <span class="badge label-danger">Coming Soon!</span></li>
-      <li class="list-group-item">April <span class="badge label-danger">Coming Soon!</span></li>
-      <li class="list-group-item">May <span class="badge label-danger">Coming Soon!</span></li>
-    </ul>
+    <div class="row">
+      <div class="col-md-8">
+        <p class="text-center"><br>2017 Upcoming Tour</p>
+        <ul class="list-group">
+          <li class="list-group-item">March <span class="badge label-danger">Coming Soon!</span></li>
+          <li class="list-group-item">April <span class="badge label-danger">Coming Soon!</span></li>
+          <li class="list-group-item">May <span class="badge label-danger">Coming Soon!</span></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <a class="twitter-timeline" data-height="300" href="https://twitter.com/weareexes">EXES</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -219,6 +226,7 @@
 </div>
 
 <div id="contact">
+
 </div>
 
 <!-- Footer -->
